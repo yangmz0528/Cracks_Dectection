@@ -34,8 +34,8 @@ Generally, all three models are performing well with an accuracy of above 95%, w
 ## Conclusion
 
 In conclusion, all three models perform fairly well with accuracy of ~99%. Transfer learning model using VGG16 performs the best as it has the smallest generalisation between training loss and validation loss amount all three models. However it seems that the model could only predict cracks in concrete and close-up images of the cracks. The model could not predict -- 
-    1. high-resolution images for images of crack from afar (but these images can be divided into smaller pieces and identify whether crack exist)
-    2. Other non-concrete cracks such as cracks in facades or asphalt road
+- high-resolution images for images of crack from afar (but these images can be divided into smaller pieces and identify whether crack exist)
+- Other non-concrete cracks such as cracks in facades or asphalt road
 
 
 ### Recommendations
